@@ -23,3 +23,6 @@ Things you may want to cover:
 
 * ...
 #curso_ruby_on_rails
+
+#comandos
+#rails generate controller static_pages
