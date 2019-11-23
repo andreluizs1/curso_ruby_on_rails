@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   post 'entrar', to: 'sessions#create'
   delete 'sair', to: 'sessions#destroy'
 
-  resources :contactss
+  resources :contacts
   resources :users, only: [:new, :create, :show]
 
 end
